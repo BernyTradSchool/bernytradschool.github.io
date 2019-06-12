@@ -5,7 +5,11 @@
 #portfolio h2 {
     color: black;
 		font-size: 50px;
-		
+
+}
+.navbar-container{
+	font-size: 14px !important;
+	width: 100%;
 }
 .container{
 	font-family: "Open Sans",sans-serif;

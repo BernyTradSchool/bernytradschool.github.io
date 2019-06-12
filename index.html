@@ -62,7 +62,7 @@ ajouter les deux dates bts -->
 <!-- Navigation -->
 <div id="nav">
   <nav class="navbar navbar-custom">
-    <div class="container">
+    <div class="container navbar-container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
         <a class="navbar-brand page-scroll" href="#page-top">Pierre Banwarth</a> </div>
@@ -72,7 +72,7 @@ ajouter les deux dates bts -->
         <ul class="nav navbar-nav">
           <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
           <li class="hidden"> <a href="#page-top"></a> </li>
-          <li> <a class="page-scroll" href="#about">Me</a> </li>
+          <li> <a class="page-scroll" href="#about">Présentation</a> </li>
 
           <li> <a class="page-scroll" href="#bts">Berny Trad School</a> </li>
           <li> <a class="page-scroll" href="#esling">Esling</a> </li>
@@ -167,6 +167,7 @@ ajouter les deux dates bts -->
         <a href="mailto:BernyTradSchool@gmail.com" target="_blank"> <i class="fa fa-envelope-o band-facebook"></i></a>
         <a href="https://www.facebook.com/BernyTradSchool/" target="_blank"><i class="fa fa-facebook band-facebook"></i></a>
         <a href="https://www.instagram.com/bernytradschool/" target="_blank"><i class="fa fa-instagram band-facebook"></i></a>
+        <a href="http://bernytradschool.org/" target="_blank"><i class="fa fa-globe band-facebook"></i></a>
       </div>
   </div>
   </div>
@@ -260,9 +261,9 @@ ajouter les deux dates bts -->
 </div>
 
 <!-- Portfolio Section -->
-<div id="portfolio">
+<div id="portfolio" class="text-center">
   <div class="container">
-    <div class="section-title text-center center">
+    <div class="section-title">
       <h2>Experimentations</h2>
       <hr>
     </div>
@@ -271,10 +272,7 @@ ajouter les deux dates bts -->
       <p>Frustré de ne pas pouvoir jouer la nuit j'ai décidé de construire une version electronique de mon instrument
       En 2019 après trois ans de travail j'ai réussi a créer une version fonctionnelle du Concertina MIDI.</p>
       <p>En parallele de mes recherches sur la version electronique du concertina, j'ai scanné et imprimé en 3D les grilles de mon concertina</p>
-
-      <div class="clearfix"></div>
     </div>
-
     <div class="row">
       <div class="portfolio-items">
         <div class="col-sm-6 col-md-3 col-lg-3 web">
@@ -305,13 +303,14 @@ ajouter les deux dates bts -->
               <img src="img/portfolio/03-small.jpg" class="img-responsive" alt="A partir d'un scan de la grille à plat"> </a> </div>
           </div>
         </div>
+
         <div class="col-sm-6 col-md-3 col-lg-3 web">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/04-large.jpg" title="Project description" rel="prettyPhoto">
+            <div class="hover-bg"> <a href="img/portfolio/08-large.jpg" title="Project description" rel="prettyPhoto">
               <div class="hover-text">
                 <h4>Project Title</h4>
                 <small>Web Design</small> </div>
-              <img src="img/portfolio/04-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="img/portfolio/08-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 app">
@@ -343,11 +342,11 @@ ajouter les deux dates bts -->
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 web">
           <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/08-large.jpg" title="Project description" rel="prettyPhoto">
+            <div class="hover-bg"> <a href="img/portfolio/04-large.jpg" title="Project description" rel="prettyPhoto">
               <div class="hover-text">
                 <h4>Project Title</h4>
                 <small>Web Design</small> </div>
-              <img src="img/portfolio/08-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="img/portfolio/04-small.jpg" class="img-responsive" alt="Project Title"> </a> </div>
           </div>
         </div>
       </div>
@@ -359,18 +358,22 @@ ajouter les deux dates bts -->
 
     <a href="https://github.com/PierreBanwarth/MIDI-concertina" target="_blank"><p><p>La page Github du projet</p></p></a>
 
-  </div>
-  <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="coll-md-6">
         <iframe width="640" height="360" src="https://www.youtube.com/embed/Mpow87xNm4Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
-      <div class="col-md-12">
-        <iframe width="640" height="360" src="https://www.youtube.com/embed/G6iePFmdnJg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="row">
+      <div class="coll-md-6">
+        <iframe width="727" height="409" src="https://www.youtube.com/embed/G6iePFmdnJg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
+
+
   </div>
+
 </div>
+
 <!-- Achievements Section -->
 <!-- Resume Section -->
 <div id="resume" class="text-center">
@@ -412,20 +415,6 @@ ajouter les deux dates bts -->
           </li>
           <li class="timeline-inverted">
             <div class="timeline-image">
-              <h4> 26 </br> Juillet </br> 2019 </h4>
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>Concert au Chty Coz (Bullat 22)</h4>
-                <h4 class="subheading">Full 4</h4>
-              </div>
-              <div class="timeline-body">
-                <p>Repas et Concert</p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="timeline-image">
               <h4> 6 </br> Juillet </br> 2019 </h4>
             </div>
             <div class="timeline-panel">
@@ -438,6 +427,21 @@ ajouter les deux dates bts -->
               </div>
             </div>
           </li>
+          <li>
+            <div class="timeline-image">
+              <h4> 26 </br> Juillet </br> 2019 </h4>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Concert au Chty Coz (Bullat 22)</h4>
+                <h4 class="subheading">Full 4</h4>
+              </div>
+              <div class="timeline-body">
+                <p>Repas et Concert</p>
+              </div>
+            </div>
+          </li>
+
           <li class="timeline-inverted">
             <div class="timeline-image">
               <h4> 03 </br> Aout </br> 2019 </h4>
