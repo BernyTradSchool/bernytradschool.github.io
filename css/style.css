@@ -2,7 +2,9 @@
 	max-width: 560px;
 	margin: auto;
 }
-
+.video-youtube {
+	margin-bottom: 30px;
+}
 .embedresize div {
 	position: relative;
 	height: 0;
