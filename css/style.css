@@ -5,6 +5,9 @@
 .video-youtube {
 	margin-bottom: 30px;
 }
+.calendar-event{
+	color: blue !important;
+}
 .embedresize div {
 	position: relative;
 	height: 0;
